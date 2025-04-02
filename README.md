@@ -1,38 +1,38 @@
-SecPass - Password Strength Analyzer
+# SecPass - Password Strength Analyzer
 
-SecPass is a command-line tool for analyzing password strength and providing stronger suggestions. It evaluates passwords based on complexity and entropy, ensuring enhanced security.
+SecPass is a command-line tool that evaluates the strength of a given password and provides suggestions for improving it.
 
-Features
+## Features
+- Analyzes password strength
+- Provides alternative, stronger password suggestions
+- Simple and fast execution
 
-Evaluates password strength.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shashank0-0/SecPass.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd SecPass
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-Provides suggestions for stronger passwords.
+## Usage
+Run the script using Python:
+```sh
+python secpass.py -p <your-password>
+```
 
-Simple and easy-to-use CLI interface.
-
-
-Installation
-
-Ensure you have Python installed, then install dependencies:
-
-pip install -r requirements.txt
-
-Usage
-
-Run SecPass using the following command:
-
-python secpass.py -p <your_password>
-
-Example
-
-python secpass.py -p shashank@123#
-
-Output:
-
+### Example Output
+```
    _____           ____                 
   / ___/___  _____/ __ \____ ___________
   \__ \/ _ \/ ___/ /_/ / __ `/ ___/ ___/
- ___/ /  __/ /__/ ____/ /_/ (__  |__  )
+ ___/ /  __/ /__/ ____/ /_/ (__  |__  ) 
 /____/\___/\___/_/    \__,_/____/____/  
                                         
           Password Strength Tool
@@ -43,13 +43,7 @@ Suggestions to improve your password:
 - $h@sH@nk@123#
 - sha$Hank@123#
 - Sh@$hank@123#
+```
 
-Contributing
-
-Feel free to submit issues or pull requests to improve SecPass!
-
-License
-
+## License
 This project is licensed under the MIT License.
-
-
