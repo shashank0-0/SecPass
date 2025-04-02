@@ -11,7 +11,7 @@ GREEN = "\033[92m"
 RESET = "\033[0m"  # Resets color to default
 
 # ASCII Banner for secpass
-BANNER = """
+BANNER = r"""
    _____           ____                 
   / ___/___  _____/ __ \____ ___________
   \__ \/ _ \/ ___/ /_/ / __ `/ ___/ ___/
