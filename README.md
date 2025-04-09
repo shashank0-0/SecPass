@@ -28,8 +28,13 @@ pip install -r requirements.txt
 Run the script using Python:
 
 ```sh
-python secpass.py -p <your-password>
+python secpass.py
 ```
+
+```sh
+Enter Your Password                  
+```
+
 
 ### Example Output:
 ```
